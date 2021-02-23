@@ -20,28 +20,25 @@ Age = input()
 print("Your age is  " + Age)
 if int(Age)>=18:
   print("Welcome to the show")
+  y = input("Enter your amount")
+  print(" Your deposit is " + y)
+  #ticket
+  ticket=200
+  bal = int(y)-int(ticket)
+  loss =  int(ticket) - int(y)
+
+  if ticket>=200:
+
+        print(" Your balance is")
+        print("your bal is" and bal)
+  else:
+        print("less funds with")
+        print("insufficient funds, less with " + loss)
+
 else:
   print("Underage")
 
-   #TICKETING
-
-   #deposit
-print("Enter your amount:")
-y = input()
-print(" Your deposit is " + y)
-#ticket
-ticket=200
-bal = int(y)-int(ticket)
-loss =  int(ticket) - int(y)
-
-if ticket>=200:
-
-  print(" Your balance is")
-  print("your bal is" and bal)
-else:
-  print("less funds with")
-  print("insufficient funds, less with " + loss)
-
 #leaving remarks
+
 print("Thank you for purchasing with us . GOOD BYE ;)")
   
